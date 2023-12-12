@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>HelloWorld</module>
+        <module>CookYourLasagna</module>
     </modules>
 
     <properties>
