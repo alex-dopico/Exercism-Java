@@ -11,6 +11,7 @@
     <modules>
         <module>HelloWorld</module>
         <module>CookYourLasagna</module>
+        <module>AnnalynInfiltration</module>
     </modules>
 
     <properties>
