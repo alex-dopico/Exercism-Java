@@ -13,4 +13,24 @@
  */
 
 public class AnnalynInfiltration {
+	boolean knight;
+	boolean archer;
+	boolean prisoner;
+	boolean dog;
+
+	public boolean checkIfFastAttackPossible() {
+		return !knight;
+	}
+
+	public boolean canBeSpied() {
+		return knight || archer || prisoner || dog;
+	}
+
+	public boolean prisonerCanBeSignaled() {
+		return prisoner && !archer;
+	}
+
+	public boolean prisonerCanBeFreed() {
+		return (dog && !archer) || (!knight && !archer);
+	}
 }
